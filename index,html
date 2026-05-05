@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Lucky Aldi Pratama</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f8fafc; }
+        .gradient-text {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-4xl w-full bg-white rounded-[2.5rem] shadow-xl overflow-hidden flex flex-col md:flex-row items-center p-8 md:p-12 gap-12">
+        <div class="w-64 h-80 md:w-80 md:h-[28rem] shrink-0 relative">
+            <div class="absolute -inset-2 bg-indigo-100 rounded-[2rem] -rotate-3"></div>
+            <img src="https://lh3.googleusercontent.com/d/1a_YcuuRUjd9lo6c4hYBzKM1LblCS4vF3" 
+                 alt="Foto Profil Lucky Aldi" 
+                 class="relative w-full h-full object-cover rounded-[2rem] shadow-lg border-4 border-white">
+        </div>
+        <div class="flex-1 text-center md:text-left">
+            <h4 class="text-indigo-600 font-bold tracking-widest text-xs uppercase mb-3">Tentang Saya</h4>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
+                Lucky Aldi <span class="gradient-text">Pratama</span>
+            </h1>
+            <p class="text-slate-600 mb-8 leading-relaxed">
+                Saya adalah seorang pelajar yang antusias dalam dunia pengembangan perangkat lunak dan desain kreatif. Fokus saya adalah menciptakan solusi digital yang bermanfaat, aman, dan estetis bagi pengguna.
+            </p>
+            <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                <a href="projects.html" class="px-6 py-3 bg-slate-900 text-white font-semibold rounded-xl hover:bg-slate-800 transition">Lihat Karya</a>
+                <div class="flex items-center space-x-3">
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:text-indigo-600 transition"><i class="fab fa-github"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:text-indigo-600 transition"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
